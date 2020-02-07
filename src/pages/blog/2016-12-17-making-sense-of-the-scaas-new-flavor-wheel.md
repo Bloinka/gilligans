@@ -10,6 +10,7 @@ featuredimage: /img/flavor_wheel.jpg
 tags:
   - flavor
   - tasting
+  - only a test
 ---
 ![flavor wheel](/img/blog-index.jpg)
 
