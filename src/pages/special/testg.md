@@ -1,6 +1,6 @@
 ---
 templateKey: special-post
-title: Greg's special
+title: testg
 featuredimage: /img/hankins.jpeg
 ---
-### This is a special
+this is a test
