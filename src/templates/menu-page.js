@@ -3,8 +3,6 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
-import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const ProductPageTemplate = ({
@@ -80,7 +78,6 @@ export const ProductPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
               <div
                 className="full-width-image-container"
                 style={{
@@ -91,11 +88,6 @@ export const ProductPageTemplate = ({
                   })`
                 }}
               />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
             </div>
           </div>
         </div>

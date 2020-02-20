@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: menu-page
 title: Menu
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience.. gggggg

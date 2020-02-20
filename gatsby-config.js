@@ -21,6 +21,7 @@ module.exports = {
         name: "uploads"
       }
     },
+    `gatsby-plugin-scroll-reveal`,
     {
       resolve: "gatsby-source-filesystem",
       options: {

@@ -11,6 +11,7 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
+
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -67,5 +68,13 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+testimonials:
+  - author: Elisabeth KaurismäkiGT
+    quote: >-
+      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
+      the same thing I’ve been drinking every morning.
+  - author: Philipp Trommler
+    quote: >-
+      Kaldi is the place to go if you want the best quality coffee. I love their
+      stance on empowering farmers and transparency.
 ---
-

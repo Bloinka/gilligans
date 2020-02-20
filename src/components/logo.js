@@ -17,7 +17,9 @@ class Logo extends Component {
             }
           }
         `}
-        render={data => [<Img fixed={data.logo.childImageSharp.fixed} />]}
+        render={data => [
+          <Img key="logo" fixed={data.logo.childImageSharp.fixed} />
+        ]}
       />
     );
   }
