@@ -13,6 +13,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
+  intro,
   mainpitch,
   description,
   testimonials
