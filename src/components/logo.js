@@ -8,7 +8,7 @@ class Logo extends Component {
       <StaticQuery
         query={graphql`
           query {
-            logo: file(relativePath: { eq: "GilligansLogo.png" }) {
+            logo: file(relativePath: { eq: "GilligansLogoBorder.png" }) {
               childImageSharp {
                 fixed(height: 60) {
                   ...GatsbyImageSharpFixed

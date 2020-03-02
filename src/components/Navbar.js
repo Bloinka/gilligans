@@ -40,8 +40,8 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="container">
-          <div>
-            <Link to="/" title="Logo">
+          <div className="navbar-brand">
+            <Link to="/" className="navbar-itemLogo" title="Logo">
               <Logo></Logo>
             </Link>
             {/* Hamburger menu */}
@@ -55,27 +55,28 @@ const Navbar = class extends React.Component {
               <span />
             </div>
           </div>
+
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/menu">
-                Menu
+                <div>Menu</div>
               </Link>
 
               <Link className="navbar-item" to="/special">
-                Specials
+                <div>Specials</div>
               </Link>
 
               <Link className="navbar-item" to="/contact">
-                Contact
+                <div>Contact</div>
               </Link>
               <Link className="navbar-item" to="/location">
-                Location
+                <div>Location</div>
               </Link>
               <Link className="navbar-item" to="/news">
-                News
+                <div>News</div>
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
