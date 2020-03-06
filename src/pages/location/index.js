@@ -9,7 +9,9 @@ class index extends Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/home-jumbotron.jpg')`
+            backgroundPosition: "50% 50%",
+
+            backgroundImage: `url('/img/patioPic.jpg')`
           }}
         >
           <h1
