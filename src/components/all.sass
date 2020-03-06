@@ -18,12 +18,20 @@ $black: #2b2523
 .navbar .navbar-menu
   box-shadow:none !important
  
-.content 
+.section 
   background-color: #ffffff
   background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png")
 
 
-  
+
+.content.whitebg
+  background: rgba(255,255,255,.8)
+  min-height: 400px
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #8fbf51;
+  color: #15346a
+
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -46,12 +54,14 @@ $black: #2b2523
   position: relative
   left: 50%
   right: 50%
-  margin: 2em -50vw
+  margin: 0em -50vw
   background-size: cover
   background-position: bottom
   display: flex
   justify-content: center
   align-items: center
+  border-bottom: 2px solid #8fbf51
+  border-top: 2px solid #8fbf51
 
 .full-width-image
     width: 100vw
@@ -88,6 +98,8 @@ $black: #2b2523
   background-color: darkblue
   border-radius: 5px
 
+.navbar-itemLogo
+  padding: 4px 20px 0px 10px
 
 .navbar-itemLogo
 footer.footer

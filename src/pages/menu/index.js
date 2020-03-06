@@ -9,7 +9,7 @@ class index extends Component {
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/home-jumbotron.jpg')`
+            backgroundImage: `url('/img/blog-index.jpg')`
           }}
         >
           <h1
@@ -19,7 +19,7 @@ class index extends Component {
             data-sal-duration="200"
             data-sal-easing="ease"
           >
-            Location
+            Menu
           </h1>
         </div>
         <section className="section">
