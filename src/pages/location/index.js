@@ -10,7 +10,6 @@ class index extends Component {
           className="full-width-image-container margin-top-0"
           style={{
             backgroundPosition: "50% 50%",
-
             backgroundImage: `url('/img/patioPic.jpg')`
           }}
         >

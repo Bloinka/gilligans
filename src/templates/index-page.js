@@ -50,7 +50,7 @@ export const IndexPageTemplate = ({
         </h1>
       </div>
     </div>
-    <section className="section section--gradient">
+    <section className="section whitebg">
       <div className="container">
         <div className="section">
           <div className="columns">
